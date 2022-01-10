@@ -24,10 +24,3 @@ data = {
       'pipeline': train_pipeline,
    },
 }
-
-# TODO: [x] implement training without scaling
-# TODO: [o] create 512x512 UnKnoT training dataset
-#  -> training patches but transformed annotations are still missing
-#  -> script to transform masks to bounding boxes?
-# TODO: [ ] implement custom inference script without test augmentation
-#  -> https://mmdetection.readthedocs.io/en/latest/1_exist_data_model.html
