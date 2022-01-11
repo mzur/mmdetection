@@ -36,7 +36,7 @@ data = {
    'train': {
       'type': 'CustomDataset',
       'img_prefix': 'data/160_164_patches/annotation_patches/images',
-      'ann_file': 'data/160_164_patches/dataset.pkl',
+      'ann_file': 'data/160_164_patches/dataset_nonzero.pkl',
       'pipeline': train_pipeline,
    },
    'val': {
